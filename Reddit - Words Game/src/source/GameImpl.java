@@ -70,7 +70,7 @@ public class GameImpl implements Game  {
 			//turn++;
 			playerString = word;
 			playerScore = playerScore + word.length();
-			easyAI();
+			//easyAI();
 		}
 	}
 
@@ -91,7 +91,7 @@ public class GameImpl implements Game  {
 			System.out.println("Please select a viable choice - run the program again.");
 			break;
 		}
-		initializeWordArray();
+		//initializeWordArray();
 	}
 	
 	@Override
